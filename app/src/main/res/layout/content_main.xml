@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="udacity.com.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/txtview_spotify"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lbl_spotify" />
+
+    <TextView
+        android:id="@+id/txtview_football"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lbl_football_app" />
+
+    <TextView
+        android:id="@+id/txtview_library"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lbl_library_app" />
+
+    <TextView
+        android:id="@+id/txtview_buildit"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lbl_build_it" />
+
+    <TextView
+        android:id="@+id/txtview_xyz"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/lbl_xyz_reader" />
+
+    <TextView
+        android:id="@+id/txtview_capstone"
+        style="@style/textstyle" android:textColor="@color/color_white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" android:background="@color/color_red"
+        android:text="@string/lbl_capstone" />
+
+</LinearLayout>
